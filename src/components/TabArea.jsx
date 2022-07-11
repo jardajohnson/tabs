@@ -2,9 +2,9 @@ const TabArea = ({ index, content }) => {
 	return (
 		<>
 			{
-				<p>
+				<h2>
 					Tab {index}: {content}
-				</p>
+				</h2>
 			}
 		</>
 	);
